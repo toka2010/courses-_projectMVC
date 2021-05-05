@@ -1,0 +1,47 @@
+﻿@model courses__projectMVC.Models.Course
+@{
+    ViewBag.Title = "coursedetails";
+}
+
+<div class="coursedetails">
+    <div class="descrip">
+        <h1> @Model.CourseName</h1>
+        <h2>@Model.Coursedescription</h2>
+     <h2>
+         @Model.WhatCourseLearn3
+     </h2> 
+        <div class="discrip2">
+            <h2>What you'll learn</h2>
+            <ul>
+                <li>@Model.WhatCourseLearn1 </li>
+                <li>@Model.WhatCourseLearn2 </li>
+                <li>@Model.WhatCourseLearn1 </li>
+
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="details">
+        <img src="~/image/@Model.image">
+        <h1> @Model.Price  KD</h1>
+        <a href="/Home/checkout?_id=@Model.Id"> <button class="btn btn-warning" type="button">Buy Now</button></a>
+        <h3> This course includes:</h3>
+        <ul>
+            <li> @Model.NofHoures hours on-demand video</li>
+            <li>@Model.NofArticles articles</li>
+            <li>222 downloadable resources</li>
+            <li>17 coding exercises</li>
+            <li>Full lifetime access</li>
+            <li>Access on mobile and TV</li>
+            <li>Certificate of completion</li>
+        </ul>
+
+    </div>
+
+
+
+
+
+</div>
+

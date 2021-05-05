@@ -1,0 +1,79 @@
+D:\Work\courses _projectMVC\courses _projectMVC\bin\courses _projectMVC.dll.config
+D:\Work\courses _projectMVC\courses _projectMVC\bin\courses _projectMVC.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\courses _projectMVC.pdb
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\csc.exe
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\csc.exe.config
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\csc.rsp
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\csi.exe
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\csi.exe.config
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\csi.rsp
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.AppContext.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Console.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Globalization.Calendars.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.IO.Compression.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Net.Http.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Net.Sockets.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.ValueTuple.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Xml.XPath.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\vbc.exe
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\vbc.exe.config
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\vbc.rsp
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\VBCSCompiler.exe
+D:\Work\courses _projectMVC\courses _projectMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Work\courses _projectMVC\courses _projectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Helpers.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Mvc.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Razor.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Webpages.Deployment.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Webpages.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Webpages.Razor.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Razor.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Webpages.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Webpages.Deployment.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Webpages.Razor.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Helpers.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\System.Web.Mvc.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses _projectMVC.csproj.CoreCompileInputs.cache
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses _projectMVC.csproj.CopyComplete
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses _projectMVC.dll
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses _projectMVC.pdb
+D:\Work\courses _projectMVC\courses _projectMVC\bin\EntityFramework.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\EntityFramework.SqlServer.dll
+D:\Work\courses _projectMVC\courses _projectMVC\bin\EntityFramework.xml
+D:\Work\courses _projectMVC\courses _projectMVC\bin\EntityFramework.SqlServer.xml
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses__projectMVC.Migrations.createdb.resources
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses _projectMVC.csproj.GenerateResource.cache
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses__projectMVC.Migrations.v2.resources
+D:\Work\courses _projectMVC\courses _projectMVC\obj\Debug\courses _projectMVC.csprojAssemblyReference.cache

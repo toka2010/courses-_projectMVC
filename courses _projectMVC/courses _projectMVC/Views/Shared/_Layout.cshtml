@@ -1,0 +1,104 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>   My E-CoursesKwt </title>
+    <meta charset="utf-8">
+
+
+    <!-- Custom styles for this template-->
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/scrolling-nav.css" rel="stylesheet" />
+    <!-- CSS only -->
+    <!-- <link href="Content/Media.css" rel="stylesheet" />-->
+    <link href="~/Content/Media.css" rel="stylesheet" />
+    <link href="~/Content/csspage.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body id="page-top" style="background-color: #bbf1fa">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#bbf1fa " id="mainNav">
+        <div class="container">
+            <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>-->
+
+            <img src="~/image/hhh.PNG" width="110px" height="60px" />
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" c>
+                        <a class="nav-link js-scroll-trigger" id="headnav" href="/Home/Index" style="padding-right:30px; color: black;">Home</a>
+                    </li>
+                    <li class="nav-item" class="navb">
+
+                        <a class="nav-link js-scroll-trigger" id="headnav" href="/Home/aboutus" style="padding-right:30px;  color: black; ">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" id="headnav" href="/Home/contactus" style="padding-right:30px;  color: black;">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" id="headnav" href="/Home/allcourses" style="padding-right:30px;  color: black; ">All Courses </a>
+                    </li>
+                    <li class="nav-item">
+                       
+
+                        @if (Session["type"] == "admin")
+                        {
+
+                    <a class="nav-link js-scroll-trigger" id="headnav" href="/Home/addcourse" style="padding-right:30px;   color: black;">Add Course </a>}
+                        else 
+                        {
+                    <a class="nav-link js-scroll-trigger" id="headnav" href="/Home/mycourse" style="padding-right:30px;   color: black;">My Courses </a>
+                        }
+                    </li>
+                    <li class="nav-item">
+                        
+                        @if (Session["log"] == "Log out")
+                        {
+                       
+                            <a href="/Home/Logout"> <button class="btn btn-warning" type="submit">Log Out</button></a>}
+                        else
+                        {
+                            <a href="/Home/Login"> <button class="btn btn-warning" type="submit">Log In</button></a>}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Nav                -->
+    </nav>
+    <div >
+
+        @RenderBody()
+    </div>
+    <!-- Footer -->
+    <div style="bottom:0px; position:static">
+        <footer class="py-4 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Courses 2021</p>
+            </div>
+            <!-- /.container -->
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("scripts", false)
+
+</body>
+</html>

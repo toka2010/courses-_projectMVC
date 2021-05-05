@@ -1,0 +1,47 @@
+﻿@model courses__projectMVC.Models.Course
+@{
+    ViewBag.Title = "checkout";
+}
+
+<div class="checkoutpage">
+
+    <div class="checkform">
+        <h1 style="margin-top: -40px; margin-bottom: 20px;">Check Out</h1>
+
+        <form method="post" action="/Home/checkout?i=@Model.Id&p=@Model.Price"> 
+            <div class="form-group row">
+                
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder=" Name of Card" required>
+                </div>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" placeholder="Card Number " required>
+                </div>
+                <div class="col-sm-10">
+                    <div class="col-sm-6" style="display: inline-block;">
+                        <input type="date" class="form-control" placeholder="Card Number " value="MM / dd / YY" required >
+                    </div>
+                    <div class="col-sm-5" style="display: inline-block;">
+                        <input type="number" class="form-control" placeholder="securty code" required>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" placeholder="Zip/postal Code">
+                </div>
+
+            </div>
+            <div class="pricepart">
+                <h2>Summary</h2>
+                <h4> @Model.CourseName Course</h4>
+                <hr>
+                <span>Price:</span>
+                <h2 id="span2"> @Model.Price  KD</h2>
+                <p>
+                    <button class="btn btn-warning" type="submit">Complete Payment</button>
+                </p>
+        </form>
+
+    </div>
+</div>
+</div>
+

@@ -1,0 +1,55 @@
+﻿@model courses__projectMVC.Models.ContactUs
+@{
+    ViewBag.Title = "contactus";
+}
+
+<div style=" background: url('../../image/40.jpg'); background-repeat: no-repeat; background-size: cover;   ">
+    <div class="contactall" style="background: rgba(62, 58, 68, 0.7);">
+        <div class="contactsection">
+            <div class="contactinfo">
+
+                <div>
+                    <img src="~/image/mail3.png">
+                    E-CoursesKwt@gmail.com
+                </div>
+                <div> <img src="~/image/clock.png" style="display: inline; width: 30px; height: 40px;">Sun-Fri 8.00AM to 5.00PM</div>
+                <div>  <img src="~/image/phone.png" style="display: inline; width: 30px; height: 40px;"></i> +965 22005236 </div>
+
+
+
+            </div>
+            <div class="contactform">
+
+                <h1>Contact Us</h1>
+
+
+                @using (Html.BeginForm(actionName: "contactus", controllerName: "Home", method: FormMethod.Post, htmlAttributes: new { @class = "contact" }))
+                {
+
+
+                    @Html.EditorFor(ww => ww.Name, additionalViewData: new { htmlAttributes = new { @class = "text-box", PlaceHolder = "Name" } })
+                    @Html.ValidationMessageFor(ww => ww.Name, "", htmlAttributes: new { @class = "text-danger errmsg" })
+
+                    @Html.EditorFor(ww => ww.Email, additionalViewData: new { htmlAttributes = new { @class = "text-box", PlaceHolder = "Email" } })
+                    @Html.ValidationMessageFor(ww => ww.Email, "", htmlAttributes: new { @class = "text-warning errmsg" })
+
+
+                    @Html.TextAreaFor(ww => ww.Message, new { @class = "form-control", PlaceHolder = " Your Message", @rows = 5 })
+                    @Html.ValidationMessageFor(ww => ww.Message, "", htmlAttributes: new { @class = "text-danger errmsg" })
+
+
+
+                    <div class="col-sm-9">
+                        <label class="text-warning"> @Html.DisplayFor(w => w.ContacterrorMsg) </label>
+                    </div>
+                    <input type="submit" value="Send" class="Send-btn" required> 
+
+
+
+                }
+            </div>
+
+        </div>
+
+    </div>
+

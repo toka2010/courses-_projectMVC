@@ -1,0 +1,55 @@
+﻿@model IEnumerable<courses__projectMVC.Models.Course>
+@{
+    ViewBag.Title = "allcourses";
+}
+<div style="        display: block;
+        margin-bottom: 30%;
+">
+<div class="coursespage" style="padding-bottom:10%">
+
+
+
+    <div class="courselist">
+        <h1>courses...</h1>
+        <form method="post" action="/Home/allcourses">
+            <u1 style="list-style-type: none ; margin-left: 50px; ">
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <input class="form-check-input" type="radio" name="CourseName" id="flexRadioDefault1"  value="@item.CourseName" checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            @item.CourseName
+                        </label>
+                    </li>}
+
+
+                <li> <button type="submit" class="btn btn-warning" style="margin-top: 20px; float: right; margin-right: 60px;"> --></button></li>
+        </form>
+        </u1>
+    </div>
+    <div class="courses" style="padding-bottom:20%">
+        @foreach (var item in Model)
+        {
+        <a href="/Home/coursedetails?_id=@item.Id">
+            <div class="card mb-3" style="max-width: 560px;">
+                <div class="row g-0">
+                    <div class="col-md-4" class="cardimag">
+                        <img src="~/image/@item.image" alt="..." width="200px" height="210px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.CourseName</h5>
+                            <p class="card-text">@item.Coursedescription</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        }
+        
+        </div>
+    </div>
+
+</div>
+

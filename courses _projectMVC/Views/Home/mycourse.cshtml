@@ -1,0 +1,34 @@
+﻿@model IEnumerable<courses__projectMVC.Models.Course>
+@{
+    ViewBag.Title = "mycourse";
+}
+
+<div class="coursese" style="margin-left: 20%; margin-top:80px; margin-bottom:35%;">
+    <h1 style="border: 1px solid black; margin-right: 60%; padding: 10px; padding-left: 40px;"> MY Courses </h1>
+    @foreach (var item in Model)
+    {
+      
+            <div class="card mb-3" style="max-width: 560px;">
+                <div class="row g-0">
+                    <div class="col-md-4" class="cardimag">
+                        <img src="~/image/@item.image" alt="..." width="200px" height="210px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.CourseName</h5>
+                            <p class="card-text">@item.Coursedescription</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    }
+
+
+
+
+</div>
+
+</div>
+
